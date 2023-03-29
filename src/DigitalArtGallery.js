@@ -27,16 +27,16 @@ function DigitalArtGallery() {
     setArtList(filteredArtList);
   }
 
-  function handleFileUpload(e) {
-    const file = e.target.files[0];
-    const reader = new FileReader();
-    reader.onloadend = () => {
-      const newId = artList.length + 1;
-      const newArtItem = {id: newId, src: reader.result};
-      setArtList([...artList, newArtItem]);
-    }
-    reader.readAsDataURL(file);
-  }
+  // function handleFileUpload(e) {
+  //   const file = e.target.files[0];
+  //   const reader = new FileReader();
+  //   reader.onloadend = () => {
+  //     const newId = artList.length + 1;
+  //     const newArtItem = {id: newId, src: reader.result};
+  //     setArtList([...artList, newArtItem]);
+  //   }
+  //   reader.readAsDataURL(file);
+  // }
 
   return (
     <div className="digital-art-gallery-container">
