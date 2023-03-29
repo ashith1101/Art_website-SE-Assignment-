@@ -1,0 +1,62 @@
+.digital-art-gallery-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.digital-art-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.digital-art-gallery-item {
+  position: relative;
+}
+
+.digital-art-gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.digital-art-gallery-item button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.digital-art-gallery-item button:hover {
+  background-color: #d32f2f;
+}
+
+.digital-art-gallery-item input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.digital-art-gallery-item button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.digital-art-gallery-item button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
