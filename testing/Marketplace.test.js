@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import Marketplace from "../Marketplace";
+import Marketplace from "../src/Marketplace.js";
 
 describe("Marketplace", () => {
   it("displays the artworks", () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import EventsManagement from '../EventsManagement.js';
+import EventsManagement from '../src/EventsManagement.js';
 
 describe('EventsManagement', () => {
   it('should allow adding a new event', () => {

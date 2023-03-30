@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import TicketingSystem from '../TicketingSystem';
+import TicketingSystem from '../src/TicketingSystem.js';
 
 describe('TicketingSystem', () => {
   let wrapper;

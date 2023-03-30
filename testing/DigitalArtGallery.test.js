@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import DigitalArtGallery from '../DigitalArtGallery';
+import DigitalArtGallery from '../DigitalArtGallery.js';
 
 describe('DigitalArtGallery', () => {
   it('should add a new artwork when "Add Art" button is clicked', () => {

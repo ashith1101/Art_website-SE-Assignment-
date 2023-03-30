@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ArtistProfile from '../ArtistProfile';
+import ArtistProfile from '../src/ArtistProfile.js';
 
 
 describe('ArtistProfile', () => {
